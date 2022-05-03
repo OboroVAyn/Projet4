@@ -271,7 +271,15 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
-
+.col-sm-4{
+    color: #800000;
+}
+.col-sm-4 ul li{
+    margin: 8px;
+}
+.col-sm-4 ul li a{
+    color: #800000;
+}
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -651,7 +659,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -677,7 +685,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -738,7 +746,7 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.text-center
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -780,12 +788,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #120404;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #120404;
 }
 
 .ltc-white {

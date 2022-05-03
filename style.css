@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -381,8 +381,8 @@ a:hover {
         position: absolute;
         top: 50%;
         right: 20px;
-        transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+        transform: translate(0, -50%);
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -564,8 +564,8 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
@@ -931,9 +931,9 @@ h4 {
     }
     .site-navigation {
         position: inherit;
-        transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        transform: none;
     }
     .nav > li {
         margin-top: 0;
